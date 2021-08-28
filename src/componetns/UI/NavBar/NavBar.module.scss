@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+.item {
+  text-decoration: none;
+
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &.active {
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+}
